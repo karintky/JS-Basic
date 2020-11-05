@@ -13,3 +13,20 @@ if (true) {
   if (price1 >= 200) {
     console.log("大於 200 塊的商品");
   }
+
+
+
+  // else if 語法：
+// else if (布林值) {}
+// else if 布林值為 true 才會執行 else if () { 程式區塊 }
+  var price = 50;
+  if (price >= 50) {
+    console.log("cheap");
+  } 
+  
+else if (score >= 40) {
+    console.log("affordable");
+}
+else {
+    console.log("expensive");
+}
